@@ -3,7 +3,8 @@
 #include <time.h>
 /**
  * main - Entry point
- * Description: checks on the last digit of the assigned and compares with the program
+ * Description: checks on the last digit of the assigned and compares with the
+ program
  * Return: Always 0 (success)
  */
 int main(void)
@@ -20,7 +21,8 @@ int main(void)
 	}
 	else if (j < 6 && j != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, j);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n",
+				n, j);
 	}
 	else
 	{
