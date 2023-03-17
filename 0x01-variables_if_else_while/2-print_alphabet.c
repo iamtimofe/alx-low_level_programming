@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Prints alphabelt in lower case
- *
- * Returns: Returns 0 Always
+ * main - Entry point
+ * Description: prints the alphabet in lowercase
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -12,8 +12,6 @@ int main(void)
 	{
 		putchar(i);
 	}
-	{
-		putchar('\n');
-	}
-	return (0);
+	putchar('\n');
+return (0);
 }
