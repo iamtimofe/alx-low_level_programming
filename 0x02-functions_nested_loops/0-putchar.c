@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 /**
  * main - Entry point
@@ -18,14 +17,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
-}
-/**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return:1 On success
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
 }
