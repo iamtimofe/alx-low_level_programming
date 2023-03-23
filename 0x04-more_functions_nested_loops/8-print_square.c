@@ -1,24 +1,26 @@
 #include "main.h"
 
 /**
- * print_square - Prints suare with #
- * @n: number of \ to be printed
+ * print_square - print square
+ * @n: number of _ to be printed
  * Return: void
  */
-void print_square(int size)
-{
-	int i, j;
 
-	if (size <= 0)
+void print_square(int n)
+{
+	int i = 0, j;
+
+	while (i < n && n > 0)
 	{
-		_putchar('\n');
-	}
-	for (i = 0; i < size; i++)
-	{
-		for (j = 0; j < size; j++)
+		j = 0;
+		while (j < n)
 		{
-		_putchar('#');
+			_putchar('#');
+			j++;
 		}
 		_putchar('\n');
+		i++;
 	}
+	if (i == 0)
+		_putchar('\n');
 }
