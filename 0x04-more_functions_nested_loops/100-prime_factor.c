@@ -8,9 +8,10 @@
 
 int main(void)
 {
-	long long num = 612852475143;
-	long long divisor = 2;
-	long long largest_prime = 0;
+
+	long num = 612852475143;
+	long divisor = 2;
+	long largest_prime = 0;
 
 	while  (num > 1)
 	{
@@ -24,6 +25,6 @@ int main(void)
 			divisor++;
 		}
 	}
-	printf("%lld\n", largest_prime);
+	printf("%ld\n", largest_prime);
 	return (0);
 }
